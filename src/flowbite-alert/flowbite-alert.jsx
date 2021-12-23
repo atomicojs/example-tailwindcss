@@ -1,7 +1,7 @@
 import { c, css } from "atomico";
 import tailwindcss from "../tailwindcss.css";
 
-function tailwindcssHero() {
+function alert() {
   return (
     <host shadowDom>
       <div
@@ -15,11 +15,11 @@ function tailwindcssHero() {
   );
 }
 
-tailwindcssHero.props = {
+alert.props = {
   myProp: String,
 };
 
-tailwindcssHero.styles = [
+alert.styles = [
   tailwindcss,
   css`
     :host {
@@ -28,6 +28,6 @@ tailwindcssHero.styles = [
   `,
 ];
 
-export const TailwindcssHero = c(tailwindcssHero);
+export const Alert = c(alert);
 
-customElements.define("flowbite-alert", TailwindcssHero);
+customElements.define("flowbite-alert", Alert);
