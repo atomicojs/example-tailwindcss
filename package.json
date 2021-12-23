@@ -13,8 +13,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "vite --force",
-    "build": "vite build",
+    "start": "vite",
+    "build": "vite build --outDir docs --base --base /example-tailwindcss",
     "test": "wtr src/**/*.test.js --node-resolve",
     "exports": "exports src/components.js --exports --types --main components",
     "prepublishOnly": "npm run test && npm run exports",
