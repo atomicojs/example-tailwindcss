@@ -10,7 +10,7 @@ export default defineConfig({
   },
   plugins: [
     atomico({
-      cssLiterals: { postcss: true },
+      cssLiterals: { postcss: true, minify: true },
     }),
   ],
 });
