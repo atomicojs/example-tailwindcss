@@ -14,7 +14,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "vite --force",
+    "start": "vite",
     "build": "vite build",
     "test": "vitest",
     "coverage": "vitest run --coverage",

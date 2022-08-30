@@ -1,4 +1,4 @@
-## t-button
+## example-footer
 
 ### Properties
 
@@ -15,5 +15,5 @@
 ### Example
 
 ```html
-<t-button my-prop="my value"></t-button>
+<example-footer my-prop="my value"></example-footer>
 ```
